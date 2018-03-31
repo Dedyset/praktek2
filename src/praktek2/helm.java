@@ -8,6 +8,11 @@ public class helm {
         harga_helm=200000;
         jumlah_helm=10;
     }
+
+    public helm(int harga_helm, int jumlah_helm) {
+        this.harga_helm = harga_helm;
+        this.jumlah_helm = jumlah_helm;
+    }
     
     void cetakInfo(){
         System.out.println("=============================");
