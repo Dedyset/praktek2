@@ -9,6 +9,7 @@ public class helmaksi {
         
         r1.cetakInfo();
         System.out.println("total = "+r1.hitungtotal());
+        r1.cetaktotal();
     }
  
 }

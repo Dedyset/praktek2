@@ -16,4 +16,8 @@ public class helm {
         total=harga_helm*jumlah_helm;
         return total;
     }
+    
+     void cetaktotal(){
+        System.out.println("Totalnya adalah: "+hitungtotal());
+     }
 }
