@@ -10,4 +10,10 @@ public class helm {
         System.out.println("jumlah_helm     :"+jumlah_helm);
         System.out.println("=============================");
         }
+    
+    int hitungtotal(){
+        int total;
+        total=harga_helm*jumlah_helm;
+        return total;
+    }
 }

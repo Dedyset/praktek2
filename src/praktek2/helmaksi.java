@@ -8,6 +8,7 @@ public class helmaksi {
         r1.jumlah_helm = 5;
         
         r1.cetakInfo();
+        System.out.println("total = "+r1.hitungtotal());
     }
  
 }
