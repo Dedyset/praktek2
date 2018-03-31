@@ -6,6 +6,8 @@ public class helmaksi {
         
         r1.harga_helm = 220000;
         r1.jumlah_helm = 5;
+        
+        r1.cetakInfo();
     }
  
 }
